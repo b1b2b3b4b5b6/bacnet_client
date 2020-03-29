@@ -1,0 +1,26 @@
+{
+    "git.ignoreLimitWarning": true,
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+		"read_prop.h": "c",
+		"bac_client.h": "c",
+		"bound_device.h": "c",
+		"address.h": "c",
+		"config.h": "c",
+		"handlers.h": "c",
+		"msg_quene.h": "c",
+		"std_common.h": "c",
+		"semaphore.h": "c",
+		"type_traits": "c",
+		"client_handle.h": "c",
+		"bac_device.h": "c",
+		"net.h": "c",
+		"client.h": "c",
+		"bac_read.h": "c",
+		"bac_error.h": "c",
+		"client_method.h": "c",
+		"handle_object.h": "c",
+		"refresh.h": "c"
+	},
+	"C_Cpp.intelliSenseEngineFallback": "Enabled"
+}

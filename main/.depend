@@ -1,0 +1,213 @@
+bac_client.o: bac_client.c bac_client.h msg_quene.h std_common.h \
+ bac_device.h ../include/bacdef.h ../include/bacenum.h \
+ ../include/config.h ../include/config.h ../include/bactext.h \
+ ../include/indtext.h ../include/bacerror.h ../include/iam.h \
+ ../include/bacdef.h ../include/bacaddr.h ../include/npdu.h \
+ ../include/arf.h ../include/bacdcode.h ../include/datetime.h \
+ ../include/bacstr.h ../include/bacint.h ../include/bacreal.h \
+ ../include/bits.h ../include/tsm.h ../include/address.h \
+ ../include/readrange.h ../include/npdu.h ../include/apdu.h \
+ object/device.h ../include/bacenum.h ../include/wp.h ../include/bacapp.h \
+ ../include/bacdevobjpropref.h ../include/rd.h ../include/rp.h \
+ ../include/rpm.h ../include/proplist.h ../include/rp.h \
+ ../include/readrange.h ../ports/linux/net.h ../include/datalink.h \
+ ../include/bip.h ../include/bvlc.h ../include/whois.h \
+ ../include/version.h ../include/filename.h ../include/handlers.h \
+ ../include/apdu.h ../include/rd.h ../include/rpm.h ../include/wp.h \
+ ../include/getevent.h ../include/timestamp.h ../include/event.h \
+ ../include/bacpropstates.h ../include/get_alarm_sum.h \
+ ../include/alarm_ack.h ../include/client.h ../include/wpm.h \
+ ../include/cov.h ../include/lso.h ../include/ptransfer.h \
+ ../include/txbuf.h ../include/datalink.h ../include/dlenv.h bac_error.h \
+ refresh.h handle_object.h bac_read.h
+bac_device.o: bac_device.c bac_device.h ../include/bacdef.h \
+ ../include/bacenum.h ../include/config.h ../include/config.h \
+ ../include/bactext.h ../include/indtext.h ../include/bacerror.h \
+ ../include/iam.h ../include/bacdef.h ../include/bacaddr.h \
+ ../include/npdu.h ../include/arf.h ../include/bacdcode.h \
+ ../include/datetime.h ../include/bacstr.h ../include/bacint.h \
+ ../include/bacreal.h ../include/bits.h ../include/tsm.h \
+ ../include/address.h ../include/readrange.h ../include/npdu.h \
+ ../include/apdu.h object/device.h ../include/bacenum.h ../include/wp.h \
+ ../include/bacapp.h ../include/bacdevobjpropref.h ../include/rd.h \
+ ../include/rp.h ../include/rpm.h ../include/proplist.h ../include/rp.h \
+ ../include/readrange.h ../ports/linux/net.h ../include/datalink.h \
+ ../include/bip.h ../include/bvlc.h ../include/whois.h \
+ ../include/version.h ../include/filename.h ../include/handlers.h \
+ ../include/apdu.h ../include/rd.h ../include/rpm.h ../include/wp.h \
+ ../include/getevent.h ../include/timestamp.h ../include/event.h \
+ ../include/bacpropstates.h ../include/get_alarm_sum.h \
+ ../include/alarm_ack.h ../include/client.h ../include/wpm.h \
+ ../include/cov.h ../include/lso.h ../include/ptransfer.h \
+ ../include/txbuf.h ../include/datalink.h ../include/dlenv.h std_common.h \
+ bac_error.h
+bac_error.o: bac_error.c bac_error.h std_common.h
+bac_read.o: bac_read.c bac_read.h bac_device.h ../include/bacdef.h \
+ ../include/bacenum.h ../include/config.h ../include/config.h \
+ ../include/bactext.h ../include/indtext.h ../include/bacerror.h \
+ ../include/iam.h ../include/bacdef.h ../include/bacaddr.h \
+ ../include/npdu.h ../include/arf.h ../include/bacdcode.h \
+ ../include/datetime.h ../include/bacstr.h ../include/bacint.h \
+ ../include/bacreal.h ../include/bits.h ../include/tsm.h \
+ ../include/address.h ../include/readrange.h ../include/npdu.h \
+ ../include/apdu.h object/device.h ../include/bacenum.h ../include/wp.h \
+ ../include/bacapp.h ../include/bacdevobjpropref.h ../include/rd.h \
+ ../include/rp.h ../include/rpm.h ../include/proplist.h ../include/rp.h \
+ ../include/readrange.h ../ports/linux/net.h ../include/datalink.h \
+ ../include/bip.h ../include/bvlc.h ../include/whois.h \
+ ../include/version.h ../include/filename.h ../include/handlers.h \
+ ../include/apdu.h ../include/rd.h ../include/rpm.h ../include/wp.h \
+ ../include/getevent.h ../include/timestamp.h ../include/event.h \
+ ../include/bacpropstates.h ../include/get_alarm_sum.h \
+ ../include/alarm_ack.h ../include/client.h ../include/wpm.h \
+ ../include/cov.h ../include/lso.h ../include/ptransfer.h \
+ ../include/txbuf.h ../include/datalink.h ../include/dlenv.h std_common.h \
+ bac_error.h msg_quene.h
+bac_readm.o: bac_readm.c bac_readm.h msg_quene.h std_common.h \
+ bac_device.h ../include/bacdef.h ../include/bacenum.h \
+ ../include/config.h ../include/config.h ../include/bactext.h \
+ ../include/indtext.h ../include/bacerror.h ../include/iam.h \
+ ../include/bacdef.h ../include/bacaddr.h ../include/npdu.h \
+ ../include/arf.h ../include/bacdcode.h ../include/datetime.h \
+ ../include/bacstr.h ../include/bacint.h ../include/bacreal.h \
+ ../include/bits.h ../include/tsm.h ../include/address.h \
+ ../include/readrange.h ../include/npdu.h ../include/apdu.h \
+ object/device.h ../include/bacenum.h ../include/wp.h ../include/bacapp.h \
+ ../include/bacdevobjpropref.h ../include/rd.h ../include/rp.h \
+ ../include/rpm.h ../include/proplist.h ../include/rp.h \
+ ../include/readrange.h ../ports/linux/net.h ../include/datalink.h \
+ ../include/bip.h ../include/bvlc.h ../include/whois.h \
+ ../include/version.h ../include/filename.h ../include/handlers.h \
+ ../include/apdu.h ../include/rd.h ../include/rpm.h ../include/wp.h \
+ ../include/getevent.h ../include/timestamp.h ../include/event.h \
+ ../include/bacpropstates.h ../include/get_alarm_sum.h \
+ ../include/alarm_ack.h ../include/client.h ../include/wpm.h \
+ ../include/cov.h ../include/lso.h ../include/ptransfer.h \
+ ../include/txbuf.h ../include/datalink.h ../include/dlenv.h bac_error.h
+client_method.o: client_method.c client_method.h handle_device.h \
+ bac_read.h bac_device.h ../include/bacdef.h ../include/bacenum.h \
+ ../include/config.h ../include/config.h ../include/bactext.h \
+ ../include/indtext.h ../include/bacerror.h ../include/iam.h \
+ ../include/bacdef.h ../include/bacaddr.h ../include/npdu.h \
+ ../include/arf.h ../include/bacdcode.h ../include/datetime.h \
+ ../include/bacstr.h ../include/bacint.h ../include/bacreal.h \
+ ../include/bits.h ../include/tsm.h ../include/address.h \
+ ../include/readrange.h ../include/npdu.h ../include/apdu.h \
+ object/device.h ../include/bacenum.h ../include/wp.h ../include/bacapp.h \
+ ../include/bacdevobjpropref.h ../include/rd.h ../include/rp.h \
+ ../include/rpm.h ../include/proplist.h ../include/rp.h \
+ ../include/readrange.h ../ports/linux/net.h ../include/datalink.h \
+ ../include/bip.h ../include/bvlc.h ../include/whois.h \
+ ../include/version.h ../include/filename.h ../include/handlers.h \
+ ../include/apdu.h ../include/rd.h ../include/rpm.h ../include/wp.h \
+ ../include/getevent.h ../include/timestamp.h ../include/event.h \
+ ../include/bacpropstates.h ../include/get_alarm_sum.h \
+ ../include/alarm_ack.h ../include/client.h ../include/wpm.h \
+ ../include/cov.h ../include/lso.h ../include/ptransfer.h \
+ ../include/txbuf.h ../include/datalink.h ../include/dlenv.h std_common.h \
+ bac_error.h msg_quene.h handle_object.h refresh.h
+handle_device.o: handle_device.c handle_device.h bac_read.h bac_device.h \
+ ../include/bacdef.h ../include/bacenum.h ../include/config.h \
+ ../include/config.h ../include/bactext.h ../include/indtext.h \
+ ../include/bacerror.h ../include/iam.h ../include/bacdef.h \
+ ../include/bacaddr.h ../include/npdu.h ../include/arf.h \
+ ../include/bacdcode.h ../include/datetime.h ../include/bacstr.h \
+ ../include/bacint.h ../include/bacreal.h ../include/bits.h \
+ ../include/tsm.h ../include/address.h ../include/readrange.h \
+ ../include/npdu.h ../include/apdu.h object/device.h ../include/bacenum.h \
+ ../include/wp.h ../include/bacapp.h ../include/bacdevobjpropref.h \
+ ../include/rd.h ../include/rp.h ../include/rpm.h ../include/proplist.h \
+ ../include/rp.h ../include/readrange.h ../ports/linux/net.h \
+ ../include/datalink.h ../include/bip.h ../include/bvlc.h \
+ ../include/whois.h ../include/version.h ../include/filename.h \
+ ../include/handlers.h ../include/apdu.h ../include/rd.h ../include/rpm.h \
+ ../include/wp.h ../include/getevent.h ../include/timestamp.h \
+ ../include/event.h ../include/bacpropstates.h ../include/get_alarm_sum.h \
+ ../include/alarm_ack.h ../include/client.h ../include/wpm.h \
+ ../include/cov.h ../include/lso.h ../include/ptransfer.h \
+ ../include/txbuf.h ../include/datalink.h ../include/dlenv.h std_common.h \
+ bac_error.h msg_quene.h
+handle_object.o: handle_object.c handle_object.h bac_read.h bac_device.h \
+ ../include/bacdef.h ../include/bacenum.h ../include/config.h \
+ ../include/config.h ../include/bactext.h ../include/indtext.h \
+ ../include/bacerror.h ../include/iam.h ../include/bacdef.h \
+ ../include/bacaddr.h ../include/npdu.h ../include/arf.h \
+ ../include/bacdcode.h ../include/datetime.h ../include/bacstr.h \
+ ../include/bacint.h ../include/bacreal.h ../include/bits.h \
+ ../include/tsm.h ../include/address.h ../include/readrange.h \
+ ../include/npdu.h ../include/apdu.h object/device.h ../include/bacenum.h \
+ ../include/wp.h ../include/bacapp.h ../include/bacdevobjpropref.h \
+ ../include/rd.h ../include/rp.h ../include/rpm.h ../include/proplist.h \
+ ../include/rp.h ../include/readrange.h ../ports/linux/net.h \
+ ../include/datalink.h ../include/bip.h ../include/bvlc.h \
+ ../include/whois.h ../include/version.h ../include/filename.h \
+ ../include/handlers.h ../include/apdu.h ../include/rd.h ../include/rpm.h \
+ ../include/wp.h ../include/getevent.h ../include/timestamp.h \
+ ../include/event.h ../include/bacpropstates.h ../include/get_alarm_sum.h \
+ ../include/alarm_ack.h ../include/client.h ../include/wpm.h \
+ ../include/cov.h ../include/lso.h ../include/ptransfer.h \
+ ../include/txbuf.h ../include/datalink.h ../include/dlenv.h std_common.h \
+ bac_error.h msg_quene.h
+main.o: main.c std_common.h client_method.h handle_device.h bac_read.h \
+ bac_device.h ../include/bacdef.h ../include/bacenum.h \
+ ../include/config.h ../include/config.h ../include/bactext.h \
+ ../include/indtext.h ../include/bacerror.h ../include/iam.h \
+ ../include/bacdef.h ../include/bacaddr.h ../include/npdu.h \
+ ../include/arf.h ../include/bacdcode.h ../include/datetime.h \
+ ../include/bacstr.h ../include/bacint.h ../include/bacreal.h \
+ ../include/bits.h ../include/tsm.h ../include/address.h \
+ ../include/readrange.h ../include/npdu.h ../include/apdu.h \
+ object/device.h ../include/bacenum.h ../include/wp.h ../include/bacapp.h \
+ ../include/bacdevobjpropref.h ../include/rd.h ../include/rp.h \
+ ../include/rpm.h ../include/proplist.h ../include/rp.h \
+ ../include/readrange.h ../ports/linux/net.h ../include/datalink.h \
+ ../include/bip.h ../include/bvlc.h ../include/whois.h \
+ ../include/version.h ../include/filename.h ../include/handlers.h \
+ ../include/apdu.h ../include/rd.h ../include/rpm.h ../include/wp.h \
+ ../include/getevent.h ../include/timestamp.h ../include/event.h \
+ ../include/bacpropstates.h ../include/get_alarm_sum.h \
+ ../include/alarm_ack.h ../include/client.h ../include/wpm.h \
+ ../include/cov.h ../include/lso.h ../include/ptransfer.h \
+ ../include/txbuf.h ../include/datalink.h ../include/dlenv.h bac_error.h \
+ msg_quene.h handle_object.h refresh.h
+msg_quene.o: msg_quene.c msg_quene.h std_common.h bac_device.h \
+ ../include/bacdef.h ../include/bacenum.h ../include/config.h \
+ ../include/config.h ../include/bactext.h ../include/indtext.h \
+ ../include/bacerror.h ../include/iam.h ../include/bacdef.h \
+ ../include/bacaddr.h ../include/npdu.h ../include/arf.h \
+ ../include/bacdcode.h ../include/datetime.h ../include/bacstr.h \
+ ../include/bacint.h ../include/bacreal.h ../include/bits.h \
+ ../include/tsm.h ../include/address.h ../include/readrange.h \
+ ../include/npdu.h ../include/apdu.h object/device.h ../include/bacenum.h \
+ ../include/wp.h ../include/bacapp.h ../include/bacdevobjpropref.h \
+ ../include/rd.h ../include/rp.h ../include/rpm.h ../include/proplist.h \
+ ../include/rp.h ../include/readrange.h ../ports/linux/net.h \
+ ../include/datalink.h ../include/bip.h ../include/bvlc.h \
+ ../include/whois.h ../include/version.h ../include/filename.h \
+ ../include/handlers.h ../include/apdu.h ../include/rd.h ../include/rpm.h \
+ ../include/wp.h ../include/getevent.h ../include/timestamp.h \
+ ../include/event.h ../include/bacpropstates.h ../include/get_alarm_sum.h \
+ ../include/alarm_ack.h ../include/client.h ../include/wpm.h \
+ ../include/cov.h ../include/lso.h ../include/ptransfer.h \
+ ../include/txbuf.h ../include/datalink.h ../include/dlenv.h bac_error.h
+refresh.o: refresh.c refresh.h bac_device.h ../include/bacdef.h \
+ ../include/bacenum.h ../include/config.h ../include/config.h \
+ ../include/bactext.h ../include/indtext.h ../include/bacerror.h \
+ ../include/iam.h ../include/bacdef.h ../include/bacaddr.h \
+ ../include/npdu.h ../include/arf.h ../include/bacdcode.h \
+ ../include/datetime.h ../include/bacstr.h ../include/bacint.h \
+ ../include/bacreal.h ../include/bits.h ../include/tsm.h \
+ ../include/address.h ../include/readrange.h ../include/npdu.h \
+ ../include/apdu.h object/device.h ../include/bacenum.h ../include/wp.h \
+ ../include/bacapp.h ../include/bacdevobjpropref.h ../include/rd.h \
+ ../include/rp.h ../include/rpm.h ../include/proplist.h ../include/rp.h \
+ ../include/readrange.h ../ports/linux/net.h ../include/datalink.h \
+ ../include/bip.h ../include/bvlc.h ../include/whois.h \
+ ../include/version.h ../include/filename.h ../include/handlers.h \
+ ../include/apdu.h ../include/rd.h ../include/rpm.h ../include/wp.h \
+ ../include/getevent.h ../include/timestamp.h ../include/event.h \
+ ../include/bacpropstates.h ../include/get_alarm_sum.h \
+ ../include/alarm_ack.h ../include/client.h ../include/wpm.h \
+ ../include/cov.h ../include/lso.h ../include/ptransfer.h \
+ ../include/txbuf.h ../include/datalink.h ../include/dlenv.h std_common.h \
+ bac_error.h handle_object.h bac_read.h msg_quene.h
